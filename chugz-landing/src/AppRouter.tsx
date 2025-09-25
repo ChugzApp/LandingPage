@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Landing from './pages/Landing';
 import Privacy from './pages/Privacy';
+import DeleteAccount from './pages/DeleteAccount';
 import Nav from './components/Nav';
 import { Box, Link } from '@mui/material';
 
@@ -8,6 +9,7 @@ import { Box, Link } from '@mui/material';
 // Routes:
 // / → Landing page
 // /privacy → Privacy Policy page
+// /delete-account → Account deletion guide page
 
 function AppRouter() {
   return (
@@ -20,6 +22,7 @@ function AppRouter() {
         <Routes>
           <Route path="/" element={<Landing />} />
           <Route path="/privacy" element={<Privacy />} />
+          <Route path="/delete-account" element={<DeleteAccount />} />
         </Routes>
       </Box>
       

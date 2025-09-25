@@ -6,7 +6,7 @@ import chugzIcon from '../assets/chugzIcon.png';
 
 // TODO: Implement top AppBar navigation
 // - Brand "Chugz" on the left
-// - Links: Home, Privacy on the right
+// - Links: Home, Privacy, Delete Account on the right
 // - Responsive: collapse into IconButton + Menu on small screens
 // - Use MUI components with theme colors
 
